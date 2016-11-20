@@ -264,3 +264,17 @@ mysql_close($link);
 ?>
 ```
 selecting database: `$db = mysql_select_db(DB_NAME, $link) or die("Couldn't select database.");`
+
+## mysql_query
+
+This command is used to execute query against mysql database.
+
+``` php
+<?php
+$result = mysql_query('SELECT * WHERE 1=1');
+if (!$result) {
+    die('Invalid query: ' . mysql_error());
+}
+
+?>
+```
