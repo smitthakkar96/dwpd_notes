@@ -73,7 +73,8 @@ Example:
 The HTML <nav> tag specifies a section that contains only navigation links.
 Example:
 
-```html <nav>
+```html 
+<nav>
   <a href="/html/">HTML</a> |
   <a href="/css/">CSS</a> |
   <a href="/js/">JavaScript</a> |
