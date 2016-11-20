@@ -278,3 +278,17 @@ if (!$result) {
 
 ?>
 ```
+## mysql_num_rows
+
+The mysql_num_rows() is used to get the number of rows in a MySQL result handle.
+
+``` php
+<?php  
+$con = mysql_connect("localhost", "root", "mypass");  
+$selectdb = mysql_select_db("tutorials",$con);  
+$result = mysql_query("select * from tutorials");  
+$number_of_rows = mysql_num_rows($result);  
+echo "Number of rows fetched are : ". $number_of_rows;  
+?>
+```
+
