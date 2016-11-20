@@ -14,7 +14,7 @@ height, src, type, width
   - The `<li>` tag is used in ordered lists(`<ol>`), unordered lists (`<ul>`), and in menu lists (`<menu>`).
 
 Example: 
-```html
+``` html
 <ol>
     <li>Coffee</li>
     <li>Tea</li>
@@ -45,7 +45,7 @@ autoplay, controls, loop, muted, preload, src
 ## font tag
 The `<font>` tag specifies the font face, font size, and color of text.
 Example:
-```html <font size="3" color="red">This is some text!</font>
+``` html <font size="3" color="red">This is some text!</font>
 <font size="2" color="blue">This is some text!</font>
 <font face="verdana" color="green">This is some text!</font>
 ```
@@ -56,7 +56,7 @@ size, color, face
 ## tr tag
 The <tr> tag defines a row in an HTML table.
 Example:
-```html
+``` html
 <table>
   <tr>
     <th>Month</th>
@@ -73,7 +73,7 @@ Example:
 The HTML <nav> tag specifies a section that contains only navigation links.
 Example:
 
-```html 
+``` html 
 <nav>
   <a href="/html/">HTML</a> |
   <a href="/css/">CSS</a> |
@@ -111,7 +111,7 @@ Syntax for both
 The settype() function is used to set the type of a variable.
 parameters var_name, var_type
 
-```php <?php  
+``` php <?php  
 $var1='98';  
 $var2='01';  
 settype($var1, "integer");  
@@ -132,7 +132,7 @@ Constants are much like variables, except for the following differences:
   - Constants can be accessed regardless of scope
   - Constant values can only be strings and numbers
 
-```php
+``` php
 <?php
 define("GREETING","Hello you! How are you today?");
 echo constant("GREETING");
@@ -143,7 +143,7 @@ $area = PI * 12;
 ```
 
 ## switch statement in php
-```php <?php
+``` php <?php
 $favcolor = "red";
 
 switch ($favcolor) {
@@ -166,7 +166,7 @@ switch ($favcolor) {
 `$value = ($condition) ? 'Truthy Value' : 'Falsey Value';`
 
 ## pass by reference 
-```<?php
+``` php <?php
 function add_some_extra(&$string)
 {
     $string .= 'and something extra.';
