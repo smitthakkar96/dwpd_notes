@@ -390,3 +390,12 @@ Php is loosely-typed language because in php you can use a variable without decl
 This kind of things are not possible in strictly type languages like c#. For example, in c# you can’t use variable without declaring it and can’t use string variable to integer without casting it.
 
 An important thing to note is that, being loosely-typed language it leads developer to write bad code. Which can cause some issues (I had one data type issue ). Though it is vary useful for writing highly dynamic applications.
+
+## strpos
+Find the position of the first occurrence of "php" inside the string:
+
+``` php
+<?php
+echo strpos("I love php, I love php too!","php");
+?>
+```
