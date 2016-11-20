@@ -112,7 +112,8 @@ Syntax for both
 The settype() function is used to set the type of a variable.
 parameters var_name, var_type
 
-``` php <?php  
+``` php 
+<?php  
 $var1='98';  
 $var2='01';  
 settype($var1, "integer");  
@@ -144,7 +145,8 @@ $area = PI * 12;
 ```
 
 ## switch statement in php
-``` php <?php
+``` php 
+<?php
 $favcolor = "red";
 
 switch ($favcolor) {
@@ -167,7 +169,8 @@ switch ($favcolor) {
 `$value = ($condition) ? 'Truthy Value' : 'Falsey Value';`
 
 ## pass by reference 
-``` php <?php
+``` php 
+<?php
 function add_some_extra(&$string)
 {
     $string .= 'and something extra.';
