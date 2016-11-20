@@ -383,3 +383,10 @@ One or more lines or text message or image
 <tr><td>hspace</td><td>This specifies horizontal space around the marquee.  This can be a value like 10 or 20% etc.</td></tr>
 <tr><td>vspace</td><td>This specifies vertical space around the marquee. This can be a value like 10 or 20% etc.</td></tr>
 </tbody></table>
+
+## why php is loosely typed langauge
+Php is loosely-typed language because in php you can use a variable without declaring it. If a variable is used to store integer then you can still access that integer as string and reverse is possible too. Php manages that automatically.
+
+This kind of things are not possible in strictly type languages like c#. For example, in c# you can’t use variable without declaring it and can’t use string variable to integer without casting it.
+
+An important thing to note is that, being loosely-typed language it leads developer to write bad code. Which can cause some issues (I had one data type issue ). Though it is vary useful for writing highly dynamic applications.
