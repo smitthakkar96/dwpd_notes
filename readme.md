@@ -45,7 +45,8 @@ autoplay, controls, loop, muted, preload, src
 ## font tag
 The `<font>` tag specifies the font face, font size, and color of text.
 Example:
-``` html <font size="3" color="red">This is some text!</font>
+``` html 
+<font size="3" color="red">This is some text!</font>
 <font size="2" color="blue">This is some text!</font>
 <font face="verdana" color="green">This is some text!</font>
 ```
