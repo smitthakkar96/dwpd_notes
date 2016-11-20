@@ -426,3 +426,39 @@ Appends form-data inside the body of the HTTP request (data is not shown is in U
 Has no size limitations
 Form submissions with POST cannot be bookmarked
 
+## method attribute and action attribute of form tag
+The method attribute specifies how to send form-data (the form-data is sent to the page specified in the action attribute).
+The form-data can be sent as URL variables (with method="get") or as HTTP post transaction (with method="post").
+
+The action attribute specifies where to send the form-data when a form is submitted.
+
+## enctype attribute 
+The enctype attribute specifies how the form-data should be encoded when submitting it to the server.
+
+
+## Php script to create mysql database
+
+``` php
+<?php
+   $dbhost = 'localhost:3036';
+   $dbuser = 'root';
+   $dbpass = 'rootpassword';
+   $conn = mysql_connect($dbhost, $dbuser, $dbpass);
+   
+   if(! $conn ) {
+      die('Could not connect: ' . mysql_error());
+   }
+   
+   echo 'Connected successfully';
+   
+   $sql = 'CREATE Database test_db';
+   $retval = mysql_query( $sql, $conn );
+   
+   if(! $retval ) {
+      die('Could not create database: ' . mysql_error());
+   }
+   
+   echo "Database test_db created successfully\n";
+   mysql_close($conn);
+?>
+```
