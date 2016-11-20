@@ -292,3 +292,58 @@ echo "Number of rows fetched are : ". $number_of_rows;
 ?>
 ```
 
+## mysql field types
+
+<table class="std_table">
+  <thead>
+  <tr>
+    <th>Data Type Syntax</th>
+    <th class="hidden-xs">Maximum Size</th>
+    <th>Explanation</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>CHAR(<em>size</em>)</td>
+    <td class="hidden-xs">Maximum size of 255 characters.</td>
+    <td>Where <strong><em>size</em></strong> is the number of characters to store. Fixed-length strings. Space padded on right to equal <em><strong>size</strong></em> characters.</td>
+  </tr>
+  <tr>
+    <td>VARCHAR(<em>size</em>)</td>
+    <td class="hidden-xs">Maximum size of 255 characters.</td>
+    <td>Where <strong><em>size</em></strong> is the number of characters to store. Variable-length string.</td>
+  </tr>
+  <tr>
+    <td>TINYTEXT(<em>size</em>)</td>
+    <td class="hidden-xs">Maximum size of 255 characters.</td>
+    <td>Where <em><strong>size</strong></em> is the number of characters to store.</td>
+  </tr>
+  <tr>
+    <td>TEXT(<em>size</em>)</td>
+    <td class="hidden-xs">Maximum size of 65,535 characters.</td>
+    <td>Where <em><strong>size</strong></em> is the number of characters to store.</td>
+  </tr>
+  <tr>
+    <td>MEDIUMTEXT(<em>size</em>)</td>
+    <td class="hidden-xs">Maximum size of 16,777,215 characters.</td>
+    <td>Where <em><strong>size</strong></em> is the number of characters to store.</td>
+  </tr>
+  <tr>
+    <td>LONGTEXT(<em>size</em>)</td>
+    <td class="hidden-xs">Maximum size of 4GB or 4,294,967,295 characters.</td>
+    <td>Where <em><strong>size</strong></em> is the number of characters to store.</td>
+  </tr>
+  <tr>
+    <td>BINARY(<em>size</em>)</td>
+    <td class="hidden-xs">Maximum size of 255 characters.</td>
+    <td>Where <strong><em>size</em></strong> is the number of binary characters to store. Fixed-length strings. Space padded on right to equal <em><strong>size</strong></em> characters.<br>
+        (Introduced in MySQL 4.1.2)</td>
+  </tr>
+  <tr>
+    <td>VARBINARY(<em>size</em>)</td>
+    <td class="hidden-xs">Maximum size of 255 characters.</td>
+    <td>Where <strong><em>size</em></strong> is the number of characters to store. Variable-length string.<br>
+        (Introduced in MySQL 4.1.2)</td>
+  </tr>
+  </tbody>
+</table>
