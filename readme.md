@@ -462,3 +462,5 @@ The enctype attribute specifies how the form-data should be encoded when submitt
    mysql_close($conn);
 ?>
 ```
+## what are flow control statements?
+The statements inside your source files are generally executed from top to bottom, in the order that they appear. Control flow statements, however, break up the flow of execution by employing decision making, looping, and branching, enabling your program to conditionally execute particular blocks of code.
