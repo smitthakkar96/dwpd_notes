@@ -521,3 +521,6 @@ Rules for PHP variables:
   - A variable name cannot start with a number
   - A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
   - Variable names are case-sensitive ($age and $AGE are two different variables)
+
+## What are looping control statements?
+With loop control statements, you can repeatedly execute a block of code. There are two types of loops: for statements loop a specific number of times, and keep track of each iteration with an incrementing index variable.
