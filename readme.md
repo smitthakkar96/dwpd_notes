@@ -234,6 +234,9 @@ checkbox allows the user to select multiple choices from given list
 
 ## setcookie
 used to set cookie
+
+A cookie is often used to identify a user. A cookie is a small file that the server embeds on the user's computer. Each time the same computer requests a page with a browser, it will send the cookie too. With PHP, you can both create and retrieve cookie values.
+
 ``` php
 setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
 $_COOKIE['cookie_name']
