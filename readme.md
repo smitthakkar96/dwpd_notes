@@ -399,3 +399,14 @@ Find the position of the first occurrence of "php" inside the string:
 echo strpos("I love php, I love php too!","php");
 ?>
 ```
+### fmod
+The fmod() function returns the remainder (modulo) of x/y.
+``` php
+<?php
+$x = 7;
+$y = 2;
+$result = fmod($x,$y);
+echo $result;
+// $result equals 1, because 2 * 3 + 1 = 7 
+?>
+```
