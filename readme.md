@@ -359,3 +359,27 @@ Css are of three types:
   - inline
   - extrenal
   - internal
+
+## Marquee
+An HTML marquee is a scrolling piece of text displayed either horizontally across or vertically down your webpage depending on the settings. This is created by using HTML <marquees> tag.
+
+``` html
+<marquee attribute_name="attribute_value"....more attributes>
+
+One or more lines or text message or image
+
+</marquee>
+```
+<table class="table table-bordered">
+<tbody><tr><th>Attribute</th><th>Description</th></tr>
+<tr><td>width</td><td>This specifies the width of the marquee. This can be a value like 10 or 20% etc.</td></tr>
+<tr><td>height</td><td>This specifies the height of the marquee. This can be a value like 10 or 20% etc.</td></tr>
+<tr><td>direction</td><td>This specifies the direction in which marquee should scroll. This can be a value like <i>up</i>, <i>down</i>, <i>left</i> or <i>right</i>.</td></tr>
+<tr><td>behavior</td><td>This specifies the type of scrolling of the marquee. This can have a value like <i>scroll</i>, <i>slide</i> and <i>alternate</i>.</td></tr>
+<tr><td>scrolldelay</td><td>This specifies how long to delay between each jump. This will have a value like 10 etc.</td></tr>
+<tr><td>scrollamount</td><td>This specifies the speed of marquee text. This can have a value like 10 etc.</td></tr>
+<tr><td>loop</td><td>This specifies how many times to loop. The default value is INFINITE, which means that the marquee loops endlessly.</td></tr>
+<tr><td>bgcolor</td><td>This specifies background color in terms of color name or color hex value.</td></tr>
+<tr><td>hspace</td><td>This specifies horizontal space around the marquee.  This can be a value like 10 or 20% etc.</td></tr>
+<tr><td>vspace</td><td>This specifies vertical space around the marquee. This can be a value like 10 or 20% etc.</td></tr>
+</tbody></table>
